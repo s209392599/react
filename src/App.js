@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello world!My name is boxue!
+          Hello World! My name is 'boxue'.
         </p>
         <a
           className="App-link"
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World
+          Learn React
         </a>
       </header>
     </div>

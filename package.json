@@ -1,13 +1,16 @@
 {
-  "name": "github-actions-demo",
+  "name": "gitpages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ruanyf.github.io/github-actions-demo",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -15,7 +18,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
