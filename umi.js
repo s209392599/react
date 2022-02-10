@@ -10156,7 +10156,7 @@
       return Object(i['jsx'])('div', {
         children: Object(i['jsx'])('h1', {
           className: o.a.title,
-          children: 'Page index',
+          children: 'Hello boxue!',
         }),
       });
     }
