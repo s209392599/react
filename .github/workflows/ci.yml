@@ -15,10 +15,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist
+        FOLDER: ./dist
         BUILD_SCRIPT: npm install && npm run build
-    - name: Deploy
-      uses: peaceiris/action-gh-pages@v3
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        publish_dir: ./dist
