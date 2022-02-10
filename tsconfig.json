@@ -16,14 +16,13 @@
     },
     "allowSyntheticDefaultImports": true
   },
-  "include": [
+  "include": [],
+  "exclude": [
     "mock/**/*",
     "src/**/*",
     "config/**/*",
     ".umirc.ts",
-    "typings.d.ts"
-  ],
-  "exclude": [
+    "typings.d.ts",
     "node_modules",
     "lib",
     "es",

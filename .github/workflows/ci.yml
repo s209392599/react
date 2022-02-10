@@ -16,3 +16,4 @@ jobs:
         BRANCH: gh-pages
         FOLDER: dist
         BUILD_SCRIPT: npm install && npm run build
+# https://github.com/marketplace/actions/deploy-to-github-pages
