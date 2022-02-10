@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ "fontSize":'50px' }}>
+        <p style={{ "fontSize":"50px" }}>
           Hello World!&nbsp;&nbsp;My name is boxue.
         </p>
       </header>
